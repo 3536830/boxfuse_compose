@@ -9,11 +9,6 @@ services:
       - "8080"
     ports:
       - "8080:8080"
-    networks:
-      - msnet
     restart: always
-networks:
-   msnet:
-     driver: bridge
 volumes:
   builds: {}
